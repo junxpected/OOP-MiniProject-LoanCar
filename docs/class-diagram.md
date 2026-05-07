@@ -64,11 +64,12 @@ classDiagram
     }
     classDiagram
     class Result {
-        +bool IsSuccess
-        +string ErrorMessage
-        +Success(value) Result
-        +Failure(error string) Result
-    }
+    %% Generic: Result~T~
+    +bool IsSuccess
+    +string ErrorMessage
+    +Success(value) Result
+    +Failure(error string) Result
+}
     Vehicle --> Result
     Vehicle <|-- CombustionCar
     Vehicle <|-- ElectricCar
