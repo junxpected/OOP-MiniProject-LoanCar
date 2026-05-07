@@ -62,7 +62,6 @@ classDiagram
         +GetAllAvailable() List
         +Update(vehicle Vehicle)
     }
-    classDiagram
     class Result {
     %% Generic: Result~T~
     +bool IsSuccess
