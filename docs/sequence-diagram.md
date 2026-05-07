@@ -1,7 +1,4 @@
----
-config:
-  theme: dark
----
+%%{init: {'theme': 'dark'}}%%
 sequenceDiagram
     autonumber
     actor User as Користувач
