@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LoanCar.Application/LoanCar.Application.csproj" />
+    <Project Path="src/LoanCar.Console/LoanCar.Console.csproj" />
+    <Project Path="src/LoanCar.Domain/LoanCar.Domain.csproj" />
+    <Project Path="src/LoanCar.Infrastructure/LoanCar.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LoanCar.Tests/LoanCar.Tests.csproj" />
+  </Folder>
+</Solution>
