@@ -62,6 +62,14 @@ classDiagram
         +GetAllAvailable() List
         +Update(vehicle Vehicle)
     }
+    classDiagram
+    class Result {
+        +bool IsSuccess
+        +string ErrorMessage
+        +Success(value) Result
+        +Failure(error string) Result
+    }
+    Vehicle --> Result
     Vehicle <|-- CombustionCar
     Vehicle <|-- ElectricCar
     Vehicle --> Location
